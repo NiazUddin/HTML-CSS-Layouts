@@ -1,0 +1,86 @@
+/*
+Theme Name: Basic Layout 1 CSS
+Theme URI: 
+Description: 
+Version: 1.0
+Author: GOZ
+*/
+
+/* Website Structure */
+
+body {
+    background-color: #FFF;
+}
+
+#wrapper {
+    width: 976px;
+    margin: auto;
+    border: dotted 2px gray;
+}
+
+#header {
+    width: 976px;
+    height: 250px; 
+    float: left;
+    border: solid 2px green;
+}
+
+#nav {
+    width: 976px;
+    height: 35px;
+    float: left;
+    border: solid 2px magenta;
+    padding-bottom: 15px;
+}
+
+#main_content {
+    margin-top: 5px;
+    width: 980px;    
+    padding: 15px 20px;
+    width: 936px;
+    float: left;
+    text-align: justify;
+    border: solid 2px blue;
+}
+
+#footer {
+    width: 976px;
+    height: 35px;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border: solid 2px orange;
+}
+
+/* Menu Styles */
+
+#nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+}
+
+#nav a:hover {
+    font-size: 17px;
+    text-decoration: none;
+    color: blue;
+}
+
+#nav ul{
+    padding-left: 0px;
+} 
+
+#nav li {
+    text-align: left;
+    list-style-type: none;
+    display: inline;    
+    margin-left: 2em;
+}
+
+/* Other styles*/
+
+.clear {
+	clear: both;
+}
