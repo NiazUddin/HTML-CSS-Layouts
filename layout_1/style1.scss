@@ -1,0 +1,86 @@
+/* 
+ Theme Name: Basic Layout 1 SASS
+ Theme URI: add your proyect's url
+ Description: add your proyect's description
+ Version: 1.0
+ Author: GOZ
+*/
+
+$page-width: 976px;
+
+body {
+  background: {
+    color: green;
+  }
+}
+
+#wrapper {
+    width: $page-width;
+    margin: auto;
+    border: dotted 2px gray;
+}
+
+#header {
+    width: $page-width;
+    height: 250px;
+    float: left;
+    border: solid 2px blue;
+}
+
+#nav {
+    width: $page-width;
+    height: 35px;
+    float: left;
+    border: solid 2px purple;
+    padding-bottom: 15px;
+    a {
+      font: {
+        size: 17px;      
+      }
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      font: {
+        size: 17px;      
+      }
+      color: magenta;
+      text-decoration: none;
+    }
+    ul{
+      padding-left: 0px;
+    }
+    li {
+      text-align: left;
+      list-style-type: none;
+      display: inline;
+      margin-left: 2em;
+    }
+}
+
+#main_content {
+    margin-top: 5px;
+    padding: 15px 20px;
+    width: 936px;
+    float: left;
+    text-align: justify;
+    border: solid 2px navy;
+}
+
+#footer {
+    width: $page-width;
+    height: 35px;
+    float: left;
+    text-align: center;
+    margin: {
+      top: 15px;
+      bottom: 10px;
+    }
+    padding-top: 20px;
+    border: solid 2px orange;
+}
+
+.clear {
+   clear: both;
+}
+
